@@ -90,7 +90,7 @@ $in = mysqli_query($mysqli, "INSERT INTO cadastro_usuario(name, email, password)
     } else {
         foreach($errors as &$error) {
             echo("<script type=\"text/javascript\">
-                toastr.error($error);
+                toastr.error(\"$error\");
             </script>");
         }
   }
