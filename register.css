@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body{
+    background:#EBEFFF;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+aside {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+
+aside img {
+    height: 90%;
+}
+
+.form-title{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #1A1A1A;
+}
+
+.signup-container {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+
+    justify-content: center;
+}
+
+.cadastro {
+    display: flex;
+
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+    width: 25%;
+    font-size: 16px;
+    margin-right: 150px;
+}
+
+.form-title {
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+.cadastro form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.cadastro button {
+    box-sizing: border-box;
+    height: 36px;
+    font-size: 1rem;
+
+    border: none;
+    border-radius: 50px;
+
+    background-color: #5FDDE4;
+    font-weight: bold;
+    color: #fff;
+}
+
+.cadastro button:hover {
+    background-color: #45C9D0;
+    transition: background-color 200ms ease-out;
+    cursor: pointer;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.input input {
+    border: #FFC207 2px solid;
+    border-radius: 50px;
+    background-color: transparent;
+    font-size: 14px;
+    padding: 8px 16px;
+}
+
+.input label {
+    font-size: 16px;
+}
+.to-login label{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.to-login label a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #1A1A1A;
+}
+.icon-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
