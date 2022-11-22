@@ -54,16 +54,12 @@
         </div>
     </div>
 </body>
-<script>
-    toastr.options.positionClass = "toast-bottom-right";
-</script>
-</html>
 
-<?php
-include('config.php');
+    <?php
+    include('config.php');
 
-if($_SERVER['REQUEST_METHOD'] == 'POST') {
-    $errors;
+    if($_SERVER['REQUEST_METHOD'] == 'POST') {
+        $errors;
 
     if (strlen($_POST['name']) == 0) {
         $errors[] = "Preencha seu nome";
@@ -82,16 +78,29 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
         $passwordconfirm = $mysqli->real_escape_string($_POST['passwordconfirm']);        
 
 
-$in = mysqli_query($mysqli, "INSERT INTO cadastro_usuario(name, email, password)
+    $in = mysqli_query($mysqli, "INSERT INTO cadastro_usuario(name, email, password)
       VALUES ('$name','$email','$password')") or die(mysqli_error($mysqli));
         if ($in) {
             header('Location: loginform.php ');
         }
     } else {
+        ?>
+        <script>
+            toastr.options.positionClass = "toast-bottom-right";
+        <?php
+
         foreach($errors as &$error) {
-            echo("<script type=\"text/javascript\">
-                toastr.error(\"$error\");
-            </script>");
+            echo("toastr.error(\"$error\"); \n");
         }
+
+        ?>
+        </script> 
+
+        <?php
   }
 }
+?>
+
+</html>
+
+

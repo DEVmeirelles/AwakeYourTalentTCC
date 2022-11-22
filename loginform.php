@@ -59,27 +59,19 @@ include('config.php');
 
 
 </body>
+</html>
+
 <?php
-if (isset($_POST['email']) || isset($_POST['password'])) {
+if($_SERVER['REQUEST_METHOD'] == 'POST') {
+    $errors;
+
     if (strlen($_POST['email']) == 0) {
-?>
-        <script type="text/javascript">
-            $(document).ready(function() {
-                toastr.options.positionClass = "toast-bottom-right";
-                toastr.error('Preencha seu email!');
-            });
-        </script>
-    <?php
-    } else if (strlen($_POST['password']) == 0) {
-    ?>
-        <script type="text/javascript">
-            $(document).ready(function() {
-                toastr.options.positionClass = "toast-bottom-right";
-                toastr.error('Preencha sua senha!');
-            });
-        </script>
-        <?php
-    } else {
+        $errors[] = "Preencha seu e-mail";
+    } if (strlen($_POST['password']) == 0) {
+        $errors[] = "Preencha sua senha";
+    }
+
+    if(count($errors) === 0){
 
         $email = $mysqli->real_escape_string($_POST['email']);
         $password = $mysqli->real_escape_string($_POST['password']);
@@ -96,15 +88,28 @@ if (isset($_POST['email']) || isset($_POST['password'])) {
             if (!isset($_SESSION)) {
                 session_start();
             }
+
+
+            // die(var_dump($usuario));
             $_SESSION['ID_user'] = $usuario['ID_user'];
             $_SESSION['name'] = $usuario['name'];
 
             header('Location: /');
-        } else {
-            header('Location: /loginform.php');
-        
         }
+     } else {
+        ?>
+        <script>
+            toastr.options.positionClass = "toast-bottom-right";
+        <?php
+
+        foreach($errors as &$error) {
+            echo("toastr.error(\"$error\"); \n");
+        }
+
+        ?>
+        </script> 
+
+        <?php
     }
-}
+  }
 ?>
-</html>
