@@ -29,7 +29,7 @@ if (!isset($_SESSION['ID_user'])) {
     <ul class="nav-links">
       <li><a href="loginform.php?logout=true">Logout</a></li>
       <li><a href="#" class="active_1">Home</a></li>
-      <li><a href="formulario.php">Experimente</a></li>
+      <li><a href="experimente.php">Experimente</a></li>
       <li><a href="#">Sobre AYT</a></li>
     </ul>
   </nav>
