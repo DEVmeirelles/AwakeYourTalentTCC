@@ -44,11 +44,12 @@ if (!isset($_SESSION['ID_user'])) {
     </nav>
     <section class="hero-section">
         <div class="hero-section__text"><h1 class="titulo">Desperte <br> o que tem de mais <br> belo em você!</h1>
-        <button class="comecar-btn">
+        <a href="formulario.php" class="comecar-btn">
         Comece agora
-        </button></div>
+        </a>
+        </div>
         <div class="photos">
-          <img src="hero-image.png" alt="">
+          <img src="imghome/hero-image.png" alt="">
         </div>
     </section>
     <main class="bk">
@@ -56,27 +57,27 @@ if (!isset($_SESSION['ID_user'])) {
 
 <div class="mySlides fade">
   <p class="p1">
-      <img src="Vector (2).png" alt="">
+      <img src="imghome/Vector (2).png" alt="">
        <br><br> Levar aquilo que traz harmonia e felicidade a todos é sem dúvidas nossa missão! <br><br> 
-       <img src="Vector.png" alt="">
+       <img src="imghome/Vector.png" alt="">
   </p>
   <div class="text">Lucas Meirelles / CEO</div>
 </div>
 
 <div class="mySlides fade">
   <p class="p1">
-  <img src="Vector (2).png" alt="">
+  <img src="imghome/Vector (2).png" alt="">
     <br><br> Levamos alegria sem ver a quem <br><br>
-    <img src="Vector.png" alt="">
+    <img src="imghome/Vector.png" alt="">
   </p>
   <div class="text">Julia Clara / CEO</div>
 </div>
 
 <div class="mySlides fade">
   <p class="p1">
-  <img src="Vector (2).png" alt="">
+  <img src="imghome/Vector (2).png" alt="">
     <br><br> Sempre descobrindo talentos <br><br>
-    <img src="Vector.png" alt="">
+    <img src="imghome/Vector.png" alt="">
   </p>
   <div class="text">Sofia Correia / CEO</div>
 </div>

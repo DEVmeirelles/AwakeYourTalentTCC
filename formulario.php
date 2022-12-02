@@ -44,7 +44,7 @@
                 <button onclick='cadastrar()'>Enviar</button>
             </form>
             <div class="to-login">
-                <label>Já está cadastrado?&nbsp;<a href="loginform.php">Loge-se</a></label>
+                <label>Já está cadastrado?&nbsp;<a href="loginform.php">Login</a></label>
             </div>
             <div class="icon-img">
                 <a href="https://wa.me/5514997597300"><img src="./assets/images/w-icon.png" alt=""></a> &nbsp; &nbsp;

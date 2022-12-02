@@ -78,6 +78,7 @@ main{
     padding: 14px 24px;
     color: #F5F5F5;
     font-weight: bolder;
+    text-decoration: none;
 }
 
 .bk{
@@ -245,7 +246,7 @@ main{
   position: absolute;
   display: flex;
     right: 10px;
-    bottom: -1400px;
+    bottom: -1670px;
 }
 
 .hero-section {

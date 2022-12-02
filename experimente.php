@@ -48,6 +48,7 @@
     </article>
     <article class="main-post main-post--not-active" role="button">
       <div class="main-post__image">
+      <div class="main-post__image-wrapper">
         <img src="/imgexp/LogoAYT.png" alt="What To Watch For in the 2019 Hungarian Grand Prix" />
       </div>
       <div class="main-post__content">
@@ -55,7 +56,7 @@
           <span class="main-post__tag">Video</span>
         </div>
         <h1 class="main-post__title">Acesse o vídeo abaixo e conheça nossa proposta!</h1>
-        <a class="main-post__link" href="#">
+        <a class="main-post__link" href="video.html">
               <svg
                 class="main-post__link-icon main-post__link-icon--play-btn"
                 width="30"
@@ -79,6 +80,7 @@
     </article>
     <article class="main-post main-post--not-active" role="button">
       <div class="main-post__image">
+      <div class="main-post__image-wrapper">
         <img src="/imgexp/LogoAYT.png" alt="Hamilton wants harder championship fight from Leclerc and
             Verstappen" />
       </div>
@@ -182,6 +184,10 @@ postsElement.forEach((post, i) => {
     
     clearInterval(progressInterval);
     progressInterval = setInterval(progress, 100);
+    currentPost.querySelector(".progress-bar__fill").style.width = 0;
+    document.querySelector(
+      ".progress-bar--primary .progress-bar__fill"
+    ).style.width = 0;
   });
 
   console.log(post)

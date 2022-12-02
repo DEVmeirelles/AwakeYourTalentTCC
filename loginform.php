@@ -57,13 +57,15 @@ include('config.php');
 
     </div>
 
-
+<script>
+    toastr.options.positionClass = "toast-bottom-right";
+</script>
 </body>
 </html>
 
 <?php
 if($_SERVER['REQUEST_METHOD'] == 'POST') {
-    $errors;
+    $errors = [];
 
     if (strlen($_POST['email']) == 0) {
         $errors[] = "Preencha seu e-mail";
@@ -71,7 +73,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
         $errors[] = "Preencha sua senha";
     }
 
-    if(count($errors) === 0){
+    if(count($errors) === 0) {
 
         $email = $mysqli->real_escape_string($_POST['email']);
         $password = $mysqli->real_escape_string($_POST['password']);
@@ -95,11 +97,16 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
             $_SESSION['name'] = $usuario['name'];
 
             header('Location: /');
+        } else {
+            ?>
+            <script>
+                toastr.error("email e/ou senha estão incorretos");
+            </script>
+        <?php
         }
      } else {
         ?>
         <script>
-            toastr.options.positionClass = "toast-bottom-right";
         <?php
 
         foreach($errors as &$error) {
