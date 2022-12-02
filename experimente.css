@@ -30,7 +30,7 @@ body {
 .progress-bar__fill {
   width: 0;
   height: inherit;
-  background: #c20000;
+  background: #45C9D0;
   transition: all 0.16s;
 }
 .progress-bar--primary {
@@ -103,7 +103,7 @@ body {
 }
 .main-post__tag {
   font-size: 0.95em;
-  background: #c20000;
+  background: #FFC207;
   padding: 6px 18px;
 }
 .main-post__title {
@@ -132,8 +132,8 @@ body {
 
 .main-post__link:hover .main-post__link-text,
 .main-post__link:hover .main-post__link-icon--arrow path {
-  color: #c20000;
-  stroke: #c20000;
+  color: #45C9D0;
+  stroke: #FFC207;
 }
 
 .main-post--active {

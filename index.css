@@ -61,6 +61,7 @@ nav{
 main{
     padding: 50px;
 }
+  
 
 .titulo{
     font-family: Inter, sans-serif;
@@ -80,8 +81,9 @@ main{
 }
 
 .bk{
-    background-image: url(/imgHome/BG.png);
+    background-image: url(imghome/BG.png);
     background-size: cover;
+    margin: 20px
 }
 
 .slideshow-container {
@@ -168,3 +170,135 @@ main{
       margin-left: auto;
       margin-right: auto;
   }
+
+  .cards{
+    margin: 100px 60px;
+    display: flex;
+  }
+
+  .container{
+    width: 100vw;
+    max-width: 1280px;
+    min-width: 1000px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+  }
+  
+  .card{
+    height: 379px;
+    width: 300px;
+    background: grey;
+    border-radius: 10px;
+    transition: 0.8s;
+    overflow: hidden;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  
+  .card0{
+    background: url('imghome/sof.jpeg') center center no-repeat;
+    background-size: 300px;
+  }
+  
+  
+  h2{
+        opacity: 1;
+      }
+  
+      .fa{
+        opacity: 1;
+      }
+  
+  .card1{
+    background: url(imghome/mei.jpeg) center center no-repeat;
+    background-size: 300px;
+  }
+  
+  
+  .card2{
+    background: url(imghome/ju.jpeg) center center no-repeat;
+    background-size: 300px;
+  }
+
+  .env_mail{
+    background-image: url(imghome/BG.png);
+    background-size: cover; 
+    padding: 30px;
+    display: flex;
+  }
+
+  .nmp{
+    word-spacing: 5px;
+    font-family: 'Mukta', sans-serif;
+    font-size: 40px;
+    font-weight: normal;
+}
+
+.mail{
+  font-family: 'Anek Devanagari';
+  font-size: 20px;
+  position: absolute;
+  display: flex;
+    right: 10px;
+    bottom: -1400px;
+}
+
+.hero-section {
+  display: flex;
+}
+
+.hero-section__text {
+  padding: 4rem;
+  flex: 1;
+}
+
+@keyframes scroll {
+	0% { transform: translateX(0); }
+	100% { transform: translateX(calc(-570px * 2))}
+}
+
+.slider {
+	background: white;
+	box-shadow: 0 10px 20px -5px rgba(0, 0, 0, .125);
+	height: fit-content;
+	margin: auto;
+	overflow:hidden;
+	position: relative;
+  width: 100%;
+}
+
+.slider::before,
+.slider::after {
+	content: "";
+	height: fit-content;
+	position: absolute;
+	width: fit-content;
+	z-index: 2;
+}
+
+.slider::after {
+	right: 0;
+	top: 0;
+	transform: rotateZ(180deg);
+}
+.slider::before {
+	left: 0;
+	top: 0;
+}
+
+.slider .slide-track {
+	animation: scroll 30s linear infinite;
+  display: flex;
+  gap: 11px;
+	width: calc(570px * 2);
+}
+
+.slider .slide {
+	height: fit-content;
+	width: fit-content;
+}

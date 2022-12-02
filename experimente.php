@@ -27,8 +27,8 @@
         <div class="main-post__tag-wrapper">
           <span class="main-post__tag">News</span>
         </div>
-        <h1 class="main-post__title">New McLaren wind tunnel 'critical' to future performance, says Tech Director Key</h1>
-        <a class="main-post__link" href="formulario.php">
+        <h1 class="main-post__title">AYT o lugar onde você descobre sua paixão, a ARTE!</h1>
+        <a class="main-post__link" href="sobre.php">
               <span class="main-post__link-text">Conheça mais </span>
               <svg
                 class="main-post__link-icon main-post__link-icon--arrow"
@@ -48,13 +48,13 @@
     </article>
     <article class="main-post main-post--not-active" role="button">
       <div class="main-post__image">
-        <img src="https://www.formula1.com/content/dam/fom-website/sutton/2019/Hungary/Saturday/1017645792-LAT-20190803-_2ST5188.jpg.transform/9col-retina/image.jpg" alt="What To Watch For in the 2019 Hungarian Grand Prix" />
+        <img src="/imgexp/LogoAYT.png" alt="What To Watch For in the 2019 Hungarian Grand Prix" />
       </div>
       <div class="main-post__content">
         <div class="main-post__tag-wrapper">
           <span class="main-post__tag">Video</span>
         </div>
-        <h1 class="main-post__title">What To Watch For in the 2019 Hungarian Grand Prix</h1>
+        <h1 class="main-post__title">Acesse o vídeo abaixo e conheça nossa proposta!</h1>
         <a class="main-post__link" href="#">
               <svg
                 class="main-post__link-icon main-post__link-icon--play-btn"
@@ -68,7 +68,7 @@
                   cx="10"
                   cy="10"
                   r="9"
-                  stroke="#C20000"
+                  stroke="#FFC207"
                   stroke-width="2"
                 />
                 <path d="M14 10L8 6V14L14 10Z" fill="white" />
@@ -79,17 +79,17 @@
     </article>
     <article class="main-post main-post--not-active" role="button">
       <div class="main-post__image">
-        <img src="https://www.formula1.com/content/dam/fom-website/manual/Misc/2019-Races/Austria-2019/Top3Austria2019.jpg.transform/9col-retina/image.jpg" alt="Hamilton wants harder championship fight from Leclerc and
+        <img src="/imgexp/LogoAYT.png" alt="Hamilton wants harder championship fight from Leclerc and
             Verstappen" />
       </div>
       <div class="main-post__content">
         <div class="main-post__tag-wrapper">
           <span class="main-post__tag">News</span>
         </div>
-        <h1 class="main-post__title">Hamilton wants harder championship fight from Leclerc and Verstappen
+        <h1 class="main-post__title">Clique no link abaixo e cadastre-se já em nossa plataforma!
         </h1>
-        <a class="main-post__link" href="#">
-              <span class="main-post__link-text">find out more</span>
+        <a class="main-post__link" href="formulario.php">
+              <span class="main-post__link-text">Comece agora!</span>
               <svg
                 class="main-post__link-icon main-post__link-icon--arrow"
                 width="37"
@@ -116,9 +116,9 @@
     </div>
     <header class="post__header">
       <span class="post__tag">News</span>
-      <p class="post__published">16 August 2019</p>
+      <p class="post__published">02 De Dezembro de 2022</p>
     </header>
-    <h2 class="post__title">New McLaren wind tunnel 'critical' to future performance, says Tech Director Key</h2>
+    <h2 class="post__title">Veja o que nós temeos para você</h2>
   </article>
   <article class="post">
     <div class="progress-bar">
@@ -126,9 +126,9 @@
     </div>
     <header class="post__header">
       <span class="post__tag">Video</span>
-      <p class="post__published">12 August 2019</p>
+      <p class="post__published">02 De Dezembro de 2022</p>
     </header>
-    <h2 class="post__title">What To Watch For in the 2019 Hungarian Grand Prix</h2>
+    <h2 class="post__title">Uma prévia do mundo novo que você conhecerá!</h2>
   </article>
   <article class="post">
     <div class="progress-bar">
@@ -136,14 +136,13 @@
     </div>
     <header class="post__header">
       <span class="post__tag">News</span>
-      <p class="post__published">08 August 2019</p>
+      <p class="post__published">02 De Dezembro de 2022</p>
     </header>
-    <h2 class="post__title">Hamilton wants harder championship fight from Leclerc and Verstappen
+    <h2 class="post__title">Venha ser um AYT!
     </h2>
   </article>
 </div>
 </div>
-<main style="min-height: 100vh; background: red;"></main>
 </body>
 </html>
 <script>
