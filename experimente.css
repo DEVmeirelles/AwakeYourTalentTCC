@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Titillium+Web:400,700&display=swap");
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web:400,700&display=swap');
 *,
 *::before,
 *::after {
@@ -8,7 +8,7 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: "Titillium Web", sans-serif;
+  font-family: 'Titillium Web', sans-serif;
 }
 
 .carousel {
@@ -30,7 +30,7 @@ body {
 .progress-bar__fill {
   width: 0;
   height: inherit;
-  background: #45C9D0;
+  background: #5fdde4;
   transition: all 0.16s;
 }
 .progress-bar--primary {
@@ -79,7 +79,7 @@ body {
   object-fit: cover;
 }
 .main-post__image::before {
-  content: "";
+  content: '';
   display: block;
   position: absolute;
   top: 0;
@@ -103,7 +103,7 @@ body {
 }
 .main-post__tag {
   font-size: 0.95em;
-  background: #FFC207;
+  background: #ffc207;
   padding: 6px 18px;
 }
 .main-post__title {
@@ -127,13 +127,13 @@ body {
   margin-left: 12px;
 }
 .main-post__link-icon--play-btn {
-  margin-right: 12px
+  margin-right: 12px;
 }
 
 .main-post__link:hover .main-post__link-text,
 .main-post__link:hover .main-post__link-icon--arrow path {
-  color: #45C9D0;
-  stroke: #FFC207;
+  color: #5fdde4;
+  stroke: #ffc207;
 }
 
 .main-post--active {

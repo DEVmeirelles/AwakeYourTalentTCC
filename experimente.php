@@ -27,7 +27,7 @@
           </div>
           <div class="main-post__content">
             <div class="main-post__tag-wrapper">
-              <span class="main-post__tag">News</span>
+              <span class="main-post__tag">Experimente</span>
             </div>
             <h1 class="main-post__title">AYT o lugar onde você descobre sua paixão, a ARTE!</h1>
             <a class="main-post__link" href="sobre.html">
@@ -41,11 +41,11 @@
         <article class="main-post main-post--not-active" role="button">
           <div class="main-post__image">
             <div class="main-post__image-wrapper">
-              <img src="/imgexp/LogoAYT.png" alt="What To Watch For in the 2019 Hungarian Grand Prix" />
+              <img src="/imgexp/propostaexp.png" alt="What To Watch For in the 2019 Hungarian Grand Prix" />
             </div>
             <div class="main-post__content">
               <div class="main-post__tag-wrapper">
-                <span class="main-post__tag">Video</span>
+                <span class="main-post__tag">Experimente</span>
               </div>
               <h1 class="main-post__title">Acesse o vídeo abaixo e conheça nossa proposta!</h1>
               <a class="main-post__link" href="video.html">
@@ -65,9 +65,9 @@
             </div>
             <div class="main-post__content">
               <div class="main-post__tag-wrapper">
-                <span class="main-post__tag">Conheça-nos</span>
+                <span class="main-post__tag">Veja nossos planos!</span>
               </div>
-              <h1 class="main-post__title">Clique no link abaixo e cadastre-se já em nossa plataforma!
+              <h1 class="main-post__title">Clique no link abaixo e venha fazer parte da familia AYT!
               </h1>
               <a class="main-post__link" href="formulario.php">
                 <span class="main-post__link-text">Comece agora!</span>
@@ -86,8 +86,8 @@
           <div class="progress-bar__fill"></div>
         </div>
         <header class="post__header">
-          <span class="post__tag">Experimente</span>
-          <p class="post__published">02 De Dezembro de 2022</p>
+          <span class="post__tag">Sobre nós</span>
+          <p class="post__published">08 De Dezembro de 2022</p>
         </header>
         <h2 class="post__title">Veja o que nós temeos para você!</h2>
       </article>
@@ -97,7 +97,7 @@
         </div>
         <header class="post__header">
           <span class="post__tag">Video demonstrativo</span>
-          <p class="post__published">02 De Dezembro de 2022</p>
+          <p class="post__published">08 De Dezembro de 2022</p>
         </header>
         <h2 class="post__title">Uma prévia do mundo novo que você conhecerá!</h2>
       </article>
@@ -107,7 +107,7 @@
         </div>
         <header class="post__header">
           <span class="post__tag">Assine nossos planos!</span>
-          <p class="post__published">02 De Dezembro de 2022</p>
+          <p class="post__published">08 De Dezembro de 2022</p>
         </header>
         <h2 class="post__title">Venha ser um AYT!
         </h2>
