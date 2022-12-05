@@ -60,7 +60,7 @@
         <article class="main-post main-post--not-active" role="button">
           <div class="main-post__image">
             <div class="main-post__image-wrapper">
-              <img src="/imgexp/LogoAYT.png" alt="Hamilton wants harder championship fight from Leclerc and
+              <img src="/imgexp/finalexp.png" alt="Hamilton wants harder championship fight from Leclerc and
             Verstappen" />
             </div>
             <div class="main-post__content">
