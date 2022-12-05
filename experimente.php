@@ -27,7 +27,9 @@
           </div>
           <div class="main-post__content">
             <div class="main-post__tag-wrapper">
-              <span class="main-post__tag">Experimente</span>
+              <a href="index.php" class="link-home-exp">
+              <span class="main-post__tag">Voltar para Home</span>
+              </a>
             </div>
             <h1 class="main-post__title">AYT o lugar onde você descobre sua paixão, a ARTE!</h1>
             <a class="main-post__link" href="sobre.html">
