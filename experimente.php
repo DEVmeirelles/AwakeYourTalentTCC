@@ -31,7 +31,7 @@
               <span class="main-post__tag">Voltar para Home</span>
               </a>
             </div>
-            <h1 class="main-post__title">AYT o lugar onde você descobre sua paixão, a ARTE!</h1>
+            <h1 class="main-post__title">AYT, o lugar onde você descobre sua paixão, a ARTE!</h1>
             <a class="main-post__link" href="sobre.html">
               <span class="main-post__link-text">Conheça mais </span>
               <svg class="main-post__link-icon main-post__link-icon--arrow" width="37" height="12" viewBox="0 0 37 12" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -69,7 +69,7 @@
               <div class="main-post__tag-wrapper">
                 <span class="main-post__tag">Veja nossos planos!</span>
               </div>
-              <h1 class="main-post__title">Clique no link abaixo e venha fazer parte da familia AYT!
+              <h1 class="main-post__title">Clique abaixo e venha fazer parte da familia AYT!
               </h1>
               <a class="main-post__link" href="formulario.php">
                 <span class="main-post__link-text">Comece agora!</span>

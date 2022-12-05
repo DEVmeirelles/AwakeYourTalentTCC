@@ -250,7 +250,8 @@ h2 {
   position: absolute;
   display: flex;
   right: 10px;
-  bottom: -1810px;
+  bottom: -1680px;
+  margin-right: 50px;
 }
 
 .hero-section {
