@@ -180,7 +180,7 @@ if (!isset($_SESSION['ID_user'])) {
     </div>
   </section>
   <main class="env_mail">
-    <h1 class="nmp">Você tem algum projeto para nós?<br>Mande pelo nosso email</h1>
+    <h1 class="nmp">Você tem algum projeto para nós?<br>Mande pelo nosso E-mail</h1>
     <div class="mail">
       awakeytalent@gmail.com
     </div>
