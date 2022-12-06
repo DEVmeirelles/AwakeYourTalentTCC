@@ -3,8 +3,10 @@ session_start();
 
 if (isset($_GET['logout'])) {
     unset($_SESSION['ID_user']);
+    $_SESSION['FIRST_LOGIN'] = false;
 }
 
+include('protect.php');
 include('config.php');
 ?>
 
@@ -97,6 +99,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
             $_SESSION['name'] = $usuario['name'];
 
             header('Location: /');
+            $_SESSION['FIRST_LOGIN'] = false;
         } else {
             ?>
             <script>

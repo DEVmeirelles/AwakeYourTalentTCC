@@ -5,6 +5,7 @@ session_start();
 if (!isset($_SESSION['ID_user'])) {
   header("Location: /loginform.php");
 }
+
 ?>
 <!DOCTYPE html>
 <html lang="pt-bt">
@@ -26,6 +27,9 @@ if (!isset($_SESSION['ID_user'])) {
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@400;600&family=Mukta:wght@700&display=swap" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.min.css" rel="stylesheet" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
   <title>ayt</title>
 
 
@@ -34,7 +38,9 @@ if (!isset($_SESSION['ID_user'])) {
 <body>
   <nav>
     <div class="logo">
+      <a href="/">
       <img src="imghome/Logo.png" alt="n foi">
+      </a>
     </div>
     <ul class="nav-links">
       <li><a href="loginform.php?logout=true">Logout</a></li>
@@ -185,6 +191,18 @@ if (!isset($_SESSION['ID_user'])) {
       awakeytalent@gmail.com
     </div>
   </main>
+  <?php
+    if (isset($_SESSION['ID_user']) && (!isset($_SESSION['FIRST_LOGIN']) || !$_SESSION['FIRST_LOGIN'])) {
+      ?>
+      <script>
+        toastr.options.positionClass = "toast-bottom-right";
+        toastr.success("Logado com sucesso.");
+      </script>
+
+      <?php
+      $_SESSION['FIRST_LOGIN'] = true;
+    }
+  ?>
 </body>
 
 </html>
